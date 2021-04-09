@@ -18,7 +18,7 @@ if memo_type == 1
 
 elsif memo_type == 2
     puts "ファイル名を記入してください" #memo_name
-    memo_name = gets.chomp
+    memo_name = "{#gets.chomp}.csv"
     
     p "メモしたい内容を記入してください" #memo
     p "終わったら Ctrl+D を押してください"
